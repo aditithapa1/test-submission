@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+
+</html>
+
+<head>
+  <style>
+    *{
+    background-color: rgb(208, 208,208);
+}
+    .Aboutus-button,
+    .Contactus-button,
+    .Services-button,
+    .Team-button {
+      background-color: black;
+      color: white;
+      border-color: red;
+      height: 33px;
+      width: 320px;
+      cursor: pointer;
+    }
+
+    .Contactus-button,
+    .Services-button,
+    .Team-button {
+      margin-left: -4px;
+
+    }
+
+    .Aboutus-button {
+      margin-left: -4px;
+    }
+
+    .Aboutus-button,
+    .Contactus-button,
+    .Team-button,
+    .Services-button:hover {
+      opacity: 0.8px;
+    }
+
+    .Aboutus-button,
+    .Contactus-button,
+    .Services-button,
+    .Team-button:active {
+      opacity: 0.4px;
+    }
+
+    .Text {
+      font-weight: bold;
+      font-size: 17px;
+      font-style: normal;
+    }
+
+    .Convert-button {
+      background-color: green;
+      color: white;
+      height: 30px;
+      width: 75px;
+      margin-top: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <button class="Aboutus-button">About Us</button>
+  <button class="Contactus-button">Contact Us</button>
+  <button class="Services-button">Services</button>
+  <button class="Team-button">Team</button>
+  <p class="Text"> Enter the weight to be converted below</p>
+  <form action="/search">
+    <input type="text" placeholder="Enter weight in pounds">
+  </form>
+  <button class="Convert-button">Convert</button>
+</body>
